@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <form onsubmit="getWeather(); return false;">
+            <input type="text" id="city" placeholder="Enter City">
+            <button type="submit">Search</button>
+        </form>
+        <div id="weatherResult"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
